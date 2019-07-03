@@ -1,0 +1,39 @@
+{
+    "name": "soarecostin/laravel-toggle-switch-fields",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Costin Soare",
+            "email": "soarecostin@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "orchestra/testbench": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoareCostin\\LaravelToggleSwitchFields\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SoareCostin\\LaravelToggleSwitchFields\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoareCostin\\LaravelToggleSwitchFields\\ToggleSwitchFieldsServiceProvider"
+            ],
+            "aliases": {
+                "SwitchableField": "SoareCostin\\LaravelToggleSwitchFields\\Facades\\ToggleSwitchFields"
+            }
+        }
+    }    
+}
