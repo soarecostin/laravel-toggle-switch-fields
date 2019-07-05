@@ -20,7 +20,26 @@ composer require soarecostin/laravel-toggle-switch-fields
 
 ## Usage
 
+### Customization
+You can publish the configuration file, that contains all the available checks using:
+```php
+php artisan vendor:publish --provider=SoareCostin\\LaravelToggleSwitchFields\\ToggleSwitchFieldsServiceProvider
+```
+
+This will publish a `toggle_switch_fields.php` file in your config folder.
+
+#### Available Configuration Options
+
+The following options are available:
+
+* Default field name - will be used as the default field name that will be toggled, for all controllers. The default value is `published`. You can overwrite this setting per each controller, as explained below, in the Controllers section
+```php 
+default_field => 'published'
+```
+
 ### Controllers
+For each Laravel Controller where you want to implement the toggle switch logic for some fields, add the `use Switchable` trait from this package:
+
 ```php
 
 use App\Http\Controllers\Controller;
@@ -33,7 +52,11 @@ class YourCustomController extends Controller
 }
 ```
 
+This trait will add two functions to your controller: `switchOn` and `switchOff`
+
 ### Routes
+Add the following to your `routes.php` file:
+
 ```php
 use SoareCostin\LaravelToggleSwitchFields\Facades\ToggleSwitchFields;
 
