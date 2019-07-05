@@ -17,7 +17,7 @@ class CreateSwitchableResourcesTable extends Migration
             $table->increments('id');
 
             // ...
-            
+
             $table->tinyInteger('published')->default(0);
         });
     }

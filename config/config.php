@@ -13,13 +13,13 @@ return [
     */
 
     'default_field' => 'published',
-    
+
     /*
     |--------------------------------------------------------------------------
     | Use Timestamps
     |--------------------------------------------------------------------------
     |
-    | Make this value true if you want to hold the timestamp when toggled 
+    | Make this value true if you want to hold the timestamp when toggled
     | using fields like published_at instead of boolean fields
     |
     */
