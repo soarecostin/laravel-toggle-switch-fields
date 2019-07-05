@@ -1,5 +1,6 @@
 # Laravel ToggleSwitch Fields
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/soarecostin/laravel-toggle-switch-fields.svg?branch=master)](https://travis-ci.org/soarecostin/laravel-toggle-switch-fields)
 [![StyleCI](https://github.styleci.io/repos/195053164/shield?branch=master)](https://github.styleci.io/repos/195053164)
 
