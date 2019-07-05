@@ -32,7 +32,7 @@
                 "SoareCostin\\LaravelToggleSwitchFields\\ToggleSwitchFieldsServiceProvider"
             ],
             "aliases": {
-                "SwitchableField": "SoareCostin\\LaravelToggleSwitchFields\\Facades\\ToggleSwitchFields"
+                "ToggleSwitchFields": "SoareCostin\\LaravelToggleSwitchFields\\Facades\\ToggleSwitchFields"
             }
         }
     }    

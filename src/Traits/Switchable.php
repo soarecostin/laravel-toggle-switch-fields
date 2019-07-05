@@ -24,7 +24,7 @@ trait Switchable
         }
         
         $success = $entity->update([$fieldName => 1]);
-        
+
         return response()->json([
             'ok' => $success
         ]);

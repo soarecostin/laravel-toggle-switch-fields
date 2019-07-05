@@ -11,7 +11,7 @@ class ToggleSwitchFieldsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/config.php' => config_path('toggle_switch_fields.php'),
-        ]);
+        ], 'config');
     }
 
     public function register()
@@ -19,5 +19,7 @@ class ToggleSwitchFieldsServiceProvider extends ServiceProvider
         $this->app->bind('laravel-toggle-switch-fields', function () {
             return new ToggleSwitchFields();
         });
+
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'toggle_switch_fields');
     }
 }
