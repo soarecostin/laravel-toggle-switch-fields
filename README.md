@@ -3,6 +3,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/soarecostin/laravel-toggle-switch-fields.svg?branch=master)](https://travis-ci.org/soarecostin/laravel-toggle-switch-fields)
 [![StyleCI](https://github.styleci.io/repos/195053164/shield?branch=master)](https://github.styleci.io/repos/195053164)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/soarecostin/laravel-toggle-switch-fields/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/soarecostin/laravel-toggle-switch-fields/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/soarecostin/laravel-toggle-switch-fields/badges/build.png?b=master)](https://scrutinizer-ci.com/g/soarecostin/laravel-toggle-switch-fields/build-status/master)
 
 This package allows you to quickly implement toggle switch fields logic into your Laravel Controllers.
 It comes with different field type support (boolean and timestamp) out of the box and allows you to add custom logic yourself.
