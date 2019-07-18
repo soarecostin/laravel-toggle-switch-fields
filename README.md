@@ -23,7 +23,7 @@ composer require soarecostin/laravel-toggle-switch-fields
 ### Customization
 You can publish the configuration file, that contains all the available checks using:
 ```php
-php artisan vendor:publish --provider=SoareCostin\\LaravelToggleSwitchFields\\ToggleSwitchFieldsServiceProvider
+php artisan vendor:publish --provider=SoareCostin\LaravelToggleSwitchFields\ToggleSwitchFieldsServiceProvider
 ```
 
 This will publish a `toggle_switch_fields.php` file in your config folder.
